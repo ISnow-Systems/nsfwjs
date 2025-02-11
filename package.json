@@ -1,6 +1,6 @@
 {
   "name": "nsfwjs",
-  "version": "4.2.1-custom-isnow-25.02",
+  "version": "4.2.1-custom-isnow-25.02.01",
   "unpkg": "dist/browser/nsfwjs.min.js",
   "description": "Detect NSFW content client-side",
   "type": "commonjs",
@@ -78,5 +78,12 @@
     "url": "https://github.com/infinitered/nsfwjs/issues"
   },
   "homepage": "https://nsfwjs.com",
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "yarn.lock",
+    "README.md"
+  ]
 }
