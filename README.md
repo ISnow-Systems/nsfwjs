@@ -1,3 +1,7 @@
+これはIcyMisskey (テスト版)用のパッチ版です。
+
+* * *
+
 <p align="center">
   <img src="https://github.com/infinitered/nsfwjs/raw/master/_art/nsfwjs_logo.jpg" alt="NSFWJS Logo" width="400" />
   <h2 align="center">Client-side indecent content checking</h2>
@@ -159,12 +163,12 @@ Subsequent Load:
 **Returns**
 
 - Ready to use NSFWJS model object
-  
+
 
 **Troubleshooting**
 
 - On the tab where the model is being loaded, inspect element and navigate to the the "Application" tab. On the left pane under the "Storage" section, there is a subsection named "IndexedDB". Here you can view if the model is being saved.
-  
+
 
 ### `classify` an image
 
