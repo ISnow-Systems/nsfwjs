@@ -1,6 +1,6 @@
 {
   "name": "@isnow-systems/nsfwjs",
-  "version": "4.2.2",
+  "version": "4.2.3",
   "unpkg": "dist/browser/nsfwjs.min.js",
   "description": "A fork and patched of original nsfwjs.",
   "type": "commonjs",
