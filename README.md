@@ -1,11 +1,13 @@
 これはIcyMisskey (テスト版)用のパッチ版です。
 
+以下はオリジナルのREADME(を少しリファクタしたもの)です。
+(※これでもコードのチェックに引っかかるのであまりよろしくない)
 * * *
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/infinitered/nsfwjs/raw/master/_art/nsfwjs_logo.jpg" alt="NSFWJS Logo" width="400" />
   <h2 align="center">Client-side indecent content checking</h2>
-</p>
+</div>
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-15-green.svg?style=flat-square)](#contributors)
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/infinitered/nsfwjs/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/infinitered/nsfwjs/tree/master)
