@@ -1,8 +1,8 @@
 {
-  "name": "nsfwjs",
-  "version": "4.2.1-custom-isnow-25.02.01",
+  "name": "@isnow-systems/nsfwjs",
+  "version": "4.2.1",
   "unpkg": "dist/browser/nsfwjs.min.js",
-  "description": "Detect NSFW content client-side",
+  "description": "A fork and patched of original nsfwjs.",
   "type": "commonjs",
   "module": "dist/esm/index.js",
   "main": "dist/cjs/index.js",
@@ -31,8 +31,7 @@
     "minbundle": "terser dist/browser/bundle.js -c -m -o dist/browser/nsfwjs.min.js",
     "bundle": "yarn build && yarn scriptbundle && yarn minbundle",
     "shipit:precheck": "if [ \"$npm_config_user_agent\" != \"${npm_config_user_agent#*yarn}\" ]; then echo 'Use `npm run shipit` instead of yarn.' && exit 1;  fi",
-    "shipit": "npm run shipit:precheck && yarn bundle && np",
-    "prepare": "yarn bundle"
+    "shipit": "npm run shipit:precheck && yarn bundle && np"
   },
   "repository": {
     "type": "git",
@@ -72,7 +71,7 @@
     "Tensorflow",
     "JS"
   ],
-  "author": "Gant Laborde",
+  "author": "ISnow Systems",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/infinitered/nsfwjs/issues"
@@ -85,5 +84,8 @@
     "package.json",
     "yarn.lock",
     "README.md"
-  ]
+  ],
+  "publishConfig": {
+    "access": "restricted"
+  }
 }
